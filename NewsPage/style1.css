@@ -1,0 +1,57 @@
+ 
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+  header{
+    background-color: blanchedalmond;
+    padding-top:30px ;
+    
+  }
+  footer{
+    background-color: blanchedalmond;
+    padding-bottom:30px ;
+    text-align: center;
+  }
+  
+  
+  .newa-card {
+    background-color: bisque;
+    max-width: 400px;
+    padding: 24px;
+    margin: 20px auto; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .newa-card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .newa-card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 16px; 
+    border-radius: 8px;
+  }
+
+  .newa-card p {
+    /* display: flex; */
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  
+  #root {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+  }
